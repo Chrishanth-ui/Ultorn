@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".notepad.NoteEditorActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF000000"
+        android:gravity="center"
+        android:text="@string/notepad"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="378dp"
+        android:layout_height="700dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/note_bg"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="typing...."
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:maxLines="100"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        tools:ignore="LabelFor" />
+
+</RelativeLayout>

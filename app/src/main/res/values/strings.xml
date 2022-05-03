@@ -1,0 +1,56 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Ultorn</string>
+    <string name="education_is_the_most_powerful_wepon_which_you_can_to_change_the_world_so_go_for_it">Education is the most powerful wepon which you can to change the world. So,go for it.</string>
+    <string name="an_app_for_every_student">AN APP FOR EVERY STUDENT</string>
+    <string name="get_started">get started</string>
+    <string name="todo" tools:ignore="DuplicateDefinition">todo</string>
+    <string name="dismiss">dismiss</string>
+    <string name="title">title</string>
+    <string name="choose_your_needs">CHOOSE YOUR NEEDS</string>
+    <string name="dashboard">Dashboard</string>
+
+
+    <string name="app_name2">Calculator</string>
+    <string name="One"> 1 </string>
+    <string name="Two"> 2 </string>
+    <string name="Three"> 3 </string>
+    <string name="Four"> 4 </string>
+    <string name="Five"> 5 </string>
+    <string name="Six"> 6 </string>
+    <string name="Seven"> 7 </string>
+    <string name="Eight"> 8 </string>
+    <string name="Nine"> 9 </string>
+    <string name="Zero"> 0 </string>
+    <string name="Clear"> C </string>
+    <string name="Bracket"> ( ) </string>
+    <string name="Percentage"> % </string>
+    <string name="PlusMinus"> +/- </string>
+    <string name="Point"> . </string>
+    <string name="Addition"> + </string>
+    <string name="Subtraction"> - </string>
+    <string name="Multiplication"> * </string>
+    <string name="Division"> / </string>
+    <string name="Equal"> = </string>
+    <string name="Backspace"> </string>
+    <string name="textBox">  </string>
+    <string name="Calculator"> Calculator </string>
+    <string name="backbtn"><![CDATA[<]]></string>
+    <string name="backspace">BackSPACE</string>
+    <string name="bracketBtn">( )</string>
+    <string name="multiply">*</string>
+
+
+    <string name="app_name3">ToDo</string>
+
+
+    <string name="app_name4">Alarm</string>
+    <string name="alarm_notifyer">Alarm Notifyer</string>
+    <string name="open_time_picker">Open Time Picker</string>
+
+
+    <string name="app_name5">Notepad</string>
+    <string name="notepad">Notepad</string>
+    <string name="add">ADD</string>
+    <string name="descr_overflow_button" />
+
+</resources>
